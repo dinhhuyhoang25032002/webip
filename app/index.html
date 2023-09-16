@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index-style.css">
+    <title>Danh sách ca sĩ Vpop</title>
+</head>
+
+<body>
+    <div class="box">
+        <button id="logout"> Logout</button>
+        <h2 class="container"> Danh sách ca sĩ Vpop</h2>
+        <div>
+            <ul id="list-objects"> </ul>
+        </div>
+    </div>
+    <div>
+        <div id="edit">
+            <label></label>
+            <input type="text" name="id" placeholder="ID (bắt buộc)">
+        </div>
+        <div id="edit">
+            <label></label>
+            <input type="text" name="StageName" placeholder="StageName">
+        </div>
+        <div id="edit">
+            <label></label>
+            <input type="text" name="FullName" placeholder="FullName">
+        </div>
+        <div id="edit">
+            <label></label>
+            <input type="text" name="Age" placeholder="Age">
+        </div>
+        <div id="edit">
+            <label></label>
+            <input type="text" name="Gender" placeholder="Gender">
+        </div>
+        <div id="edit">
+            <label></label>
+            <input type="text" name="PlaceOfOrigin" placeholder="PlaceOfOrigin">
+        </div>
+        <div id="edit">
+            <label></label>
+            <input type="text " name="img" placeholder="Img">
+        </div>
+        <div>
+            <button id="create"> Tạo</button>
+        </div>
+        <div>
+            <button id="update" onclick="EditObject" style="display: none;"> Lưu</button>
+        </div>
+        <div>
+            <!--table-->
+            <h5 class="titletable">hiển thị danh sách theo bảng</h5>
+            <table >
+                <thead>
+                    <tr >
+                        <th class="titletable">STT</th>
+                        <th class="titletable">Họ và tên</th>
+                        <th class="titletable">Tuổi </th>
+                        <th class="titletable"> Giới tính</th>
+                        <th class="titletable">Nơi sinh</th>
+                    </tr>
+                </thead>
+                <tbody id="table">
+
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <iframe width="500" height="300" src="https://www.youtube.com/embed/XUt6pLlAWB0"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+
+        <div>
+            <ul>
+
+            </ul>
+        </div>
+    </div>
+    <div>
+        <canvas id = "myChart"></canvas>
+    </div>
+    <script src="./app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</body>
+
+</html>

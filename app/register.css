@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    font-family: 'poppins' ,sans-serif;
+}
+body{
+    background-image: url("./app/background-register.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+   
+}
+.box{
+  
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.container{
+    opacity: 0.0 - 1.0;;
+    width: 400px;
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+    margin-top: 97px;
+    border-radius: 6%;
+   background-color: rgba(158, 125, 125, 0.3); 
+   /* align-items: center; */
+   
+
+}
+header{
+    color: #faf7f8;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+.input-field .input{
+    height: 45px;
+    width: 87%;
+    border: none;
+    border-radius: 30px;
+    color: #040404;
+    font-size: 15px;
+    padding: 0 0 0 45px;
+    opacity: 0.0 - 1.0;
+    outline: none;
+    background-color: rgba(227, 216, 216, 0.5);
+    border: 1px solid #2a2828;
+    margin-top: 10px;
+}
+::-webkit-input-placeholder{
+    color: #1d1b1b;
+}
+
+#register {
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 98%;
+    background: rgba(227, 216, 216, 0.5);
+    cursor: pointer;
+    border: 1px solid #2a2828;
+    margin-top: 15px;
+    
+}
+
+#register:hover {
+    background: rgba(186, 165, 165, 0.7);
+
+}
+
+.two-col{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.one{
+    display: flex;
+    
+}
+
+label a{
+    text-decoration: none;
+    color: #fff;
+}
+.social-media{
+    width: 350px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+.icon{
+    position: relative;
+    top: -31px;
+    left: 15px;
+}

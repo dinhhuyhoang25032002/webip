@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    font-family: 'poppins' ,sans-serif;
+}
+body{
+     background-image: url("./background.jpg"); 
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+   
+}
+.box{
+  
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.container{
+    opacity: 0.0 - 1.0;;
+    width: 400px;
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+    margin-top: 97px;
+    border-radius: 6%;
+   /* background-color: rgba(158, 125, 125, 0.7); */
+   
+
+}
+span{
+    color: #f2eaf1;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    padding: 9px 0 9px 0;
+    margin-top: 15px;
+    
+}
+header{
+    color: #faf7f8;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+    margin-bottom: 10px;
+}
+
+.input-field .input{
+    height: 45px;
+    width: 87%;
+    border: none;
+    border-radius: 30px;
+    color: #040404;
+    font-size: 15px;
+    padding: 0 0 0 45px;
+    opacity: 0.0 - 1.0;
+    outline: none;
+    background-color: rgba(227, 216, 216, 0.7);
+}
+#check {
+    cursor: pointer;
+}
+
+.msg {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 17px;
+    color: red;
+    font-weight: 500;
+    margin: 0;
+   line-height: 17px;
+   height: 17px; 
+   margin-left: 30%;
+}
+i{
+    
+    color: #353333;
+}
+::-webkit-input-placeholder{
+    color: #1d1b1b;
+}
+
+#signup{
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    height: 25px;
+    outline: none;
+    width: 100%;
+    background: rgba(227, 216, 216, 0.7);
+    cursor: pointer;
+    border: 1px solid #2a2828;
+}
+
+#signup:hover{
+    background: rgba(186, 165, 165, 0.7);
+}
+
+#submit{
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    background: rgba(227, 216, 216, 0.7);
+    cursor: pointer;
+    border: 1px solid #2a2828;
+    
+}
+
+#submit:hover{
+    background: rgba(186, 165, 165, 0.7);
+
+}
+
+.update {
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    color: #040404;
+    background: rgba(227, 216, 216, 0.7);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.two-col{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+    height: 30px;
+}
+.one{
+    display: flex;
+    justify-content: left;
+    
+}
+
+label a{
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: -10px;
+    padding: 0 0 0 45px;
+    opacity: 0.0 - 1.0;
+}
+.social-media{
+    width: 350px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+.icon{
+    position: relative;
+    top: -31px;
+    left: 15px;
+}
+
+/* .button{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid #333;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(242, 238, 238, 0.7);
+} */
+
+.social-icon{
+    height: 56px;
+    width: 66px; 
+     border: 1px solid #333;  
+    margin: 0 0.99rem;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+/* .button:hover,
+.button:focus {
+      box-shadow: 0 0.5em 0.5em -0.4em var(--hover) ;
+      transform: translateY(-0.25em);
+} */
+      
+.social-text{
+    padding: 0.7rem 0;
+    font-size: 1rem;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
